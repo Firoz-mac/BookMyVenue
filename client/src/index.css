@@ -5,3 +5,38 @@
   font-family: "Inter", sans-serif;
 }
 
+:root {
+  --bg: #ffffff;
+  --card: #f8fafc;
+  --text: #0f172a;
+  --text-secondary: #64748b;
+  --border: #dae0e5;
+  --primary: #fc0f47;
+  --primary-hover: #e8104e;
+  --primary-blue: #2563eb;
+  --primary-hover-blue: #1d4ed8;
+  --color-gold : #F59E0B;
+}
+
+.dark {
+  --bg: #0f172a;
+  --card: #1e293b;
+  --text: #f8fafc;
+  --text-secondary: #94a3b8;
+  --border: #334155;
+  --primary: #fc0f47;
+  --primary-hover: #e8104e;
+  --primary-blue: #2563eb;
+  --primary-hover-blue: #60a5fa;
+  --color-gold : #F59E0B;
+}
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
